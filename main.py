@@ -3,8 +3,6 @@ import random
 import pandas as pd
 import datetime
 
-from IPython.core.magic_arguments import NAME_RE
-
 with open("birthdays.csv") as df:
     df = pd.read_csv(df)
     names = df.name
